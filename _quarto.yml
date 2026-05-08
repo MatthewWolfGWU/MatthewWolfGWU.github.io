@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: docs  
+
+website:
+  favicon: nfl_logo.png
+  navbar:               
+    left:
+      - text: "Fourth Down Trends"
+        href: fourth_down/trends.ipynb
+
+resources:
+  - helper_functions/
+
+format:
+    html: 
+        css: styles.css
+
